@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>json.human.js - Json Formatting for Human Beings</title>
+        <link rel="stylesheet" media="all" href="css/demo.css" />
+        <link rel="stylesheet" media="all" href="css/json.human.css" />
+       <link rel="stylesheet" media="all" href="./css/codemirror.css" />
+      
+    </head>
+
+    <body>
+       
+        
+
+
+        <h2>Input: JSON</h2>
+
+        <textarea id="input">
+        </textarea>
+        <div class="buttons">
+            <button id="convert">Display In table</button>
+        </div>
+           <input type="text" placeholder="search..." id="search-text"></input>
+        <h2>Output: HTML</h2>
+        <div id="output">
+        
+        </div>     
+  	 
+   <script src="https://code.jquery.com/jquery-2.1.3.min.js" data-main="js/parsejson"></script>  
+       	 <script src="./js/codemirror.js"></script>
+          
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/codemirror/3.16.0/mode/javascript/javascript.min.js" data-main="js/demo"></script>
+        <script src="./lib/require.js" data-main="js/parsejson"></script>
+        
+
+    </body>
+</html>
